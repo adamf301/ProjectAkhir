@@ -1,488 +1,221 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Portofolio Faisal & Adam</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+    <title>PORTOFOLIO</title>
+    <link rel="stylesheet" href="cv.css">
+                        
+<button id="theme-toggle" type="button">
+  🌙
+</button>
 </head>
 
 <body>
-
-    <!-- BACKGROUND -->
-    <div class="background">
-        <div class="glow glow1"></div>
-        <div class="glow glow2"></div>
-        <div class="glow glow3"></div>
-
-        <div class="grid"></div>
-
-        <div class="particles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-
-    <!-- NAVBAR -->
-    <header class="navbar">
-
-        <div class="logo">
-            FA<span>.</span>
-        </div>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#profil">Profil</a>
-            <a href="#skills">Skill</a>
-            <a href="#project">Project</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <a href="#contact" class="nav-button">
-            Hubungi
-        </a>
-
-    </header>
-
-
-    <!-- HERO -->
-    <section class="hero" id="home">
-
-        <div class="hero-text reveal">
-
-            <div class="label">
-                <span></span>
-                PORTOFOLIO PRIBADI
+    <script src="theme.js"></script>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1> FAISAL BASRI &</h1>
+                <h1>ADAM FIRDAUS</h1>
+                <h2>Pelajar SMK Muhammadiyah Pencongan</h2>
             </div>
-
-            <h1>
-                TWO
-                <span>CREATIVE</span>
-                MINDS
-                <b>.</b>
-            </h1>
-
-            <p>
-                Website portofolio pribadi yang berisi
-                profil, kemampuan, dan beberapa project
-                yang pernah kami kerjakan.
-            </p>
-
-            <div class="buttons">
-
-                <a href="#profil" class="btn-primary">
-                    Lihat Profil
-                    <span>↗</span>
-                </a>
-
-                <a href="#project" class="btn-secondary">
-                    Lihat Project
-                </a>
-
+            <div class="photo">
+                <img src="image/faisal.jpeg" alt="Faisal Basri">
             </div>
-
-        </div>
-
-
-        <!-- ORBIT -->
-        <div class="orbit orbit1"></div>
-        <div class="orbit orbit2"></div>
-
-
-        <!-- DUA FOTO -->
-        <div class="people" id="profil">
-
-            <!-- FAISAL -->
-            <div class="person-card reveal tilt">
-
-                <span class="number">01</span>
-
-                <div class="person-image">
-
-                    <img src="faisal basri.jpeg" alt="Faisal Basri">
-
-                    <div class="image-overlay"></div>
-
-                </div>
-
-                <div class="person-info">
-
-                    <small>PROFILE 01</small>
-
-                    <h2>
-                        Faisal
-                        <span>Basri</span>
-                    </h2>
-
-                    <div class="line"></div>
-
-                    <p>
-                        Web Developer
-                    </p>
-
-                </div>
-
-                <div class="card-arrow">
-                    ↗
-                </div>
-
+            <div class="photo">
+                <img src="image/ADAM.jpeg" alt="Adam Firdaus">
             </div>
-
-
-            <!-- ADAM -->
-            <div class="person-card reveal tilt">
-
-                <span class="number">02</span>
-
-                <div class="person-image">
-
-                    <img src="adam firdaus.jpeg" alt="Adam Firdaus">
-
-                    <div class="image-overlay"></div>
-
-                </div>
-
-                <div class="person-info">
-
-                    <small>PROFILE 02</small>
-
-                    <h2>
-                        Adam
-                        <span>Firdaus</span>
-                    </h2>
-
-                    <div class="line"></div>
-
-                    <p>
-                        Web Developer
-                    </p>
-
-                </div>
-
-                <div class="card-arrow">
-                    ↗
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- RUNNING TEXT -->
-    <div class="running">
-
-        <div class="running-track">
-
-            <span>HTML</span>
-            <b>✦</b>
-
-            <span>CSS</span>
-            <b>✦</b>
-
-            <span>JAVASCRIPT</span>
-            <b>✦</b>
-
-            <span>PHP</span>
-            <b>✦</b>
-
-            <span>MYSQL</span>
-            <b>✦</b>
-
-            <span>HTML</span>
-            <b>✦</b>
-
-            <span>CSS</span>
-            <b>✦</b>
-
-        </div>
-
-    </div>
-
-
-    <!-- TENTANG -->
-    <section class="section about">
-
-        <div class="section-label">
-            01 / TENTANG
-        </div>
-
-        <div class="about-content">
-
-            <h2 class="reveal">
-                MEMBUAT
-                <span>WEBSITE</span>
-                DENGAN CARA KAMI.
-            </h2>
-
-            <div class="about-text reveal">
-
-                <p>
-                    Kami adalah siswa jurusan Rekayasa
-                    Perangkat Lunak yang sedang belajar
-                    tentang pembuatan website dan
-                    pemrograman.
-                </p>
-
-                <p>
-                    Website ini dibuat untuk menampilkan
-                    profil, kemampuan, dan hasil pekerjaan
-                    yang sudah kami pelajari.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- SKILL -->
-    <section class="section skills" id="skills">
-
-        <div class="section-label">
-            02 / KEMAMPUAN
-        </div>
-
-        <h2 class="section-title reveal">
-            YANG KAMI
-            <span>PELAJARI.</span>
-        </h2>
-
-        <div class="skill-grid">
-
-            <div class="skill-card reveal">
-
-                <div class="skill-icon">
-                    &lt;/&gt;
-                </div>
-
-                <h3>HTML & CSS</h3>
-
-                <p>
-                    Membuat struktur dan tampilan
-                    halaman website.
-                </p>
-
-                <span>01</span>
-
-            </div>
-
-
-            <div class="skill-card reveal">
-
-                <div class="skill-icon">
-                    JS
-                </div>
-
-                <h3>JavaScript</h3>
-
-                <p>
-                    Membuat website menjadi lebih
-                    interaktif.
-                </p>
-
-                <span>02</span>
-
-            </div>
-
-
-            <div class="skill-card reveal">
-
-                <div class="skill-icon">
-                    PHP
-                </div>
-
-                <h3>PHP</h3>
-
-                <p>
-                    Membuat fitur website sederhana
-                    dan pengolahan data.
-                </p>
-
-                <span>03</span>
-
-            </div>
-
-
-            <div class="skill-card reveal">
-
-                <div class="skill-icon">
-                    DB
-                </div>
-
-                <h3>MySQL</h3>
-
-                <p>
-                    Menyimpan dan mengelola data
-                    menggunakan database.
-                </p>
-
-                <span>04</span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- PROJECT -->
-    <section class="section project-section" id="project">
-
-        <div class="section-label">
-            03 / PROJECT
-        </div>
-
-        <div class="project-header">
-
-            <h2 class="section-title reveal">
-                HASIL
-                <span>KERJA.</span>
-            </h2>
-
-            <p>
-                Beberapa project dan dokumentasi
-                yang pernah kami buat.
-            </p>
-
-        </div>
-
-
-        <div class="project-grid">
-
-            <div class="project-card reveal">
-
-                <div class="project-image">
-
-                    <img src="html.jpeg" alt="Project 1">
-
-                    <div class="project-overlay">
-                        LIHAT PROJECT ↗
+        </header>
+        <div class="content-wrapper">
+            <!-- Main contenr -->
+            <div class="main-content">
+                <!-- Aboutme -->
+                <section id="about">
+                    <h3>Tentang Saya</h3>
+                    <p><strong>Hi!</strong>saya <strong>Faisal Basri dan Adam Firdaus</strong>, seorang pelajar SMK
+                        Muhammadiyah Pencongan <em>Jurusan Rekayasa Perangkat lunak</em>
+                        Saya menyukai <u>programing dan teknologi pengembangan web</u>.</p>
+                    <p>Kita Sedang Mempelajari Bahasa Pemrogaman </p><b>html,css, dan java script</b>
+                    <p>Aplikasi yang sering saya gunakan adalah Visual Studio Code</p>
+                    <p>Kita juga mengikuti organisasi Ikatan Pelajar Muhammadiyah di Sekolah <mark>Saya Faisal Basri
+                            berada di bidang Pengembangan Kreativitas Dan Kewirausahaan dan Saya Adam berada di bidang
+                            Kajian Dakwah Islam</mark>.</p>
+                </section>
+                <!-- Work experient -->
+                <section id="experient">
+                    <h3>Pengalaman Magang</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tahun</th>
+                                <th>Perusahaan</th>
+                                <th>Bidang</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2025 - 2026</td>
+                                <td>Aston Printer</td>
+                                <td>Service</td>
+                            </tr>
+                            <tr>
+                                <td>2025 - 2026</td>
+                                <td>IIWMA</td>
+                                <td>Coding</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- Work experient -->
+                <section id="education">
+                    <h3>Pendidikan</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tahun</th>
+                                <th>Institusi</th>
+                                <th>Jurusan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2024 - Sekarang</td>
+                                <td>SMK Muhammadiyah Pencongan</td>
+                                <td>Rekayasa Perangkat Lunak</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <!-- Project -->
+                <section id="project">
+                    <h3>Foto Project</h3>
+                    <div class="project-grid">
+                        <div class="project-item">
+                            <img src="image/html.jpeg"
+                                    class="project-img">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="project-item">
+                            <img src="image/capcut.jpeg"
+                                class="project-img">
+                            <h4>Caput</h4>
+                        </div>
+                        <div class="project-item">
+                            <img src="image/floww.jpeg"
+                             class="project-img">
+                            <h4>Flowgorithma</h4>
+                        </div>
+                        <div class="project-item">
+                            <img src="image/dabase.jpeg"
+                             class="project-img">
+                            <h4>Database mysql</h4>
+                        </div>
+                        <div class="project-item">
+                            <img src="image/java.jpeg"
+                             class="project-img">
+                            <h4>Java</h4>
+                        </div>
+                        <div class="project-item">
+                            <img src="image/Figma.jpeg"
+                             class="project-img">
+                            <h4>figma</h4>
+                        </div>
                     </div>
 
-                </div>
-
-                <small>
-                    01 / HTML
-                </small>
-
-                <h3>
-                    Html
-                </h3>
-
+                </section>
             </div>
-
-
-            <div class="project-card reveal">
-
-                <div class="project-image">
-
-                    <img src="java.jpeg" alt="Project 2">
-
-                    <div class="project-overlay">
-                        LIHAT PROJECT ↗
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Contact -->
+                <section id="contact">
+                    <h3>Detail Kontak Faisal</h3>
+                    <div class="contact-info">
+                        <img src="image/eml.jpg" alt="">
+                        <strong>:</strong>
+                        <a href="mailto:faisalbasrri@gmail.com?subject=Pesan%20Portofolio&body=Halo%20Faisal">
+                            faisalbasrrigmail.com
+                        </a>
                     </div>
-
-                </div>
-
-                <small>
-                    02 / JAVA
-                </small>
-
-                <h3>
-                    Java
-                </h3>
-
-            </div>
-
-
-            <div class="project-card reveal">
-
-                <div class="project-image">
-
-                    <img src="flowgorithm.jpeg" alt="Project 3">
-
-                    <div class="project-overlay">
-                        LIHAT PROJECT ↗
+                    <div class="contact-info">
+                        <img src="image/telp.jpg" alt="">
+                        <strong>:</strong>
+                        <a href="https:/wa.me/6289652792266?text=Assalamualaikum%20Bos">0896-5569-0055</a>
                     </div>
+                    <div class="contact-info">
+                        <img src="image/almt.jpg" alt="">
+                        <strong>:</strong>
+                        <a href="https://maps.app.goo.gl/aGsXjaaifd27zN4q6">Kab.Pekalongan</a>
+                    </div>
+                </section>
+                <section id="contact">
+                    <h3>Detail Kontak Adam</h3>
+                    <div class="contact-info">
+                        <img src="image/eml.jpg" alt="">
+                        <strong>:</strong>
+                        <a href="mailto:hellozuffar@gmail.com">adamf124@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <img src="image/telp.jpg" alt="">
+                        <strong>:</strong>
+                        <a href="https:/wa.me/6289655690055?text=Assalamualaikum%20Bos">0896-5569-0055</a>
+                    </div>
+                    <div class="contact-info">
+                        <img src="image/almt.jpg" alt="">
+                        <strong>:</strong>
+                        <a href="https://maps.app.goo.gl/aGsXjaaifd27zN4q6">Kab.Pekalongan</a>
+                    </div>
+                </section>
+                <!-- experience -->
+                <section id="certifcate">
+                    <h3>Organisasi</h3>
+                    <ol>
+                        <li>IPM-Ikatan Pelajar Muhammdiyah</li>
 
-                </div>
+                    </ol>
+                </section>
+                <!-- medsos -->
+                <section id="certifcate">
+                    <h3>Media Sosial Faisal</h3>
 
-                <small>
-                    03 / FLOWGORITHM
-                </small>
+                    <div class="contact-info">
+                        <img src="image/igs.jpg" alt="">
+                        <a
+                            href="https://www.instagram.com/faisal_basri09?obrf=MXdtM2xhbXBuaWlmZw%3D%3D&utm_source=qr">Instagram</a>
+                    </div>
+                    <div class="contact-info">
+                        <img src="image/tt.jpg" alt="">
+                        <a href="https://vt.tiktok.com/ZSbcTbqTp/">Tiktok</a>
+                    </div>
+                </section>
+                 <section id="certifcate">
+                    <h3>Media Sosial Adam</h3>
 
-                <h3>
-                    flowgorithm
-                </h3>
-
+                    <div class="contact-info">
+                        <img src="image/igs.jpg" alt="">
+                        <a
+                            href="https://www.instagram.com/adamfirdaus4720?dlrf=MWk3ZWNqMXFnOTY4ZQ==">Instagram</a>
+                    </div>
+                    <div class="contact-info">
+                        <img src="image/tt.jpg" alt="">
+                        <a href="https://vt.tiktok.com/ZSbcTX3Kb/">Tiktok</a>
+                    </div>
+                </section>
+                <!-- Skill -->
+                <section id="skill">
+                    <h3>Keterampilan</h3>
+                    <ul class="skill-list">
+                        <li class="skill-tag">1.Bermain Game</li>
+                        <li class="skill-tag">2.Capcut</li>
+                        <li class="skill-tag">3.Word</li>
+                        <li class="skill-tag">4.Canva</li>
+                       
+                    </ul>
+                </section>
             </div>
-
         </div>
-
-    </section>
-
-
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-
-        <div class="contact-glow"></div>
-
-        <div class="section-label">
-            04 / CONTACT
-        </div>
-
-        <div class="contact-content reveal">
-
-            <p>
-                ADA YANG INGIN DITANYAKAN?
-            </p>
-
-            <h2>
-                HUBUNGI
-                <span>KAMI.</span>
-            </h2>
-
-            <a href="mailto:emailkamu@gmail.com">
-                Kirim Email ↗
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <div>
-            FA<span>.</span>
-        </div>
-
-        <p>
-            © 2026 Faisal Basri & Adam Firdaus
-        </p>
-
-    </footer>
-
-
-    <script src="script.js"></script>
-
 </body>
+
 </html>
